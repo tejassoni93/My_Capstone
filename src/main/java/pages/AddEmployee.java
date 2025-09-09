@@ -57,7 +57,7 @@ public class AddEmployee {
     public boolean isEmployeeSaved() {
         String msg = getSuccessMessage();
         System.out.println("DEBUG: Toast message captured = [" + msg + "]");
-        return msg.contains("Successfully Saved");
+        return msg.contains("Successfully SAVED");
     }
 
     public String getErrorMessage() {
