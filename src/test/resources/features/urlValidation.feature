@@ -7,3 +7,4 @@ Scenario: Launch with correct URL
 Scenario: Launch with wrong URL
     Given I launch the application with "wrong"
     Then I should see a page not found error
+    
