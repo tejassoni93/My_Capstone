@@ -10,3 +10,5 @@ Scenario: Negative Login - Invalid credentials
     Given I am logged out
     When I login with username "wrongUser" and password "wrongPass"
     Then I should see a login error message "Invalid credentials"
+
+    
